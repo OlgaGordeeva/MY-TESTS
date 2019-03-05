@@ -1,0 +1,979 @@
+{
+  "id": "f05740da-0a08-4ff2-84ce-2b04a628f5a6",
+  "version": "2.0",
+  "name": "MAILBOX",
+  "url": "https://id.rambler.ru",
+  "tests": [{
+    "id": "99cafbbe-f0c5-4322-807f-830ff194960c",
+    "name": "5.1",
+    "commands": [{
+      "id": "59d24676-ba07-4952-ac69-39f7d279cacf",
+      "comment": "",
+      "command": "open",
+      "target": "/account/registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "387642b1-a87d-4597-9006-4c714e7bfc72",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "619x772",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "584eaefd-62d1-4bb5-a61c-bfaa7f584f71",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8197ed0-4021-461d-aafa-258473114d77",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "создаемящик"
+    }, {
+      "id": "99a9ae08-ed1b-4b2f-aa11-1cc8898a379d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-Button-type-primary",
+      "targets": [
+        ["css=.rui-Button-type-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2e42cc70-6d10-492d-8f1c-486f3ea45a09",
+    "name": "5.2",
+    "commands": [{
+      "id": "1eeb350f-b065-4576-b3f8-80b08e7e0a7d",
+      "comment": "",
+      "command": "open",
+      "target": "/login-20/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c980606-548d-422c-b04a-414e70843a5d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "619x772",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66bed746-b08b-4852-8857-fad837d34390",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.rui-Button-button",
+      "targets": [
+        ["css=.rui-Button-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0091ceb-cbf8-4edf-b61f-e1dc48a360b4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.c0231:nth-child(3) > .rui-IconButton-button",
+      "targets": [
+        ["css=.c0231:nth-child(3) > .rui-IconButton-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/aside/article/div/span[3]/button", "xpath:idRelative"],
+        ["xpath=//span[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "129885fa-c62a-4029-8f1f-7c4212cf6e2a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Регистрация",
+      "targets": [
+        ["linkText=Регистрация", "linkText"],
+        ["css=.c0233 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/footer/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/registration')]", "xpath:href"],
+        ["xpath=//footer/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f963a7d7-81b8-416a-80a3-3fc05b5a6a8f",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0a86218-2acb-434a-86ea-acb52f4e1977",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "123456789"
+    }, {
+      "id": "38098a1c-7485-421a-baf8-5643c533a733",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-Button-type-primary",
+      "targets": [
+        ["css=.rui-Button-type-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "add83835-2a07-4b6b-a67b-c1afdaec9c07",
+    "name": "5.3",
+    "commands": [{
+      "id": "406864fa-eb6e-4a34-baf2-45fb50bd9616",
+      "comment": "",
+      "command": "open",
+      "target": "/login-20/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1b15900-469e-4403-92e3-b9398019a2ad",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "619x772",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f3facb9-278c-463f-a781-0fecdff2ad6b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Регистрация",
+      "targets": [
+        ["linkText=Регистрация", "linkText"],
+        ["css=.c0233 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/footer/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/registration')]", "xpath:href"],
+        ["xpath=//footer/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7285ed1f-be82-4c9d-8db5-d8befbad62c4",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2079ab8d-4945-4790-81bf-296deca9bf51",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Proverka1234567"
+    }]
+  }, {
+    "id": "f680f361-94e0-4058-ad10-69e59e30aa27",
+    "name": "5.4",
+    "commands": [{
+      "id": "f69038f9-4ed1-41b8-b5ad-fb03153eba72",
+      "comment": "",
+      "command": "open",
+      "target": "/login-20/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dab31bae-8917-4cf4-9cb8-6547470cb3d1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "619x772",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8587f838-3a95-43c8-9593-70773ac4ddae",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Регистрация",
+      "targets": [
+        ["linkText=Регистрация", "linkText"],
+        ["css=.c0233 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/footer/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/registration')]", "xpath:href"],
+        ["xpath=//footer/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32127f0f-78ca-47ba-877f-fc4b427d4b19",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04ffb0f5-f0e5-4567-b3db-04f3caf84e53",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "F123456789123456789123456789123456789123456789123456789"
+    }, {
+      "id": "4d03930c-a21f-4e00-83e9-2e8d033486d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-Button-type-primary",
+      "targets": [
+        ["css=.rui-Button-type-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "377a38b9-6d7c-4f83-bad4-6015810c3f13",
+    "name": "5.5",
+    "commands": [{
+      "id": "999fec97-473f-4607-aebc-0b9f684b9981",
+      "comment": "",
+      "command": "open",
+      "target": "/login-20/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb6e7da6-7f7d-4207-a2b6-b4d1e081ff77",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "619x772",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16070daf-6bc6-4d6d-b660-615ab0e1c07f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.rui-Button-button",
+      "targets": [
+        ["css=.rui-Button-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96473e89-232b-43eb-9077-411de9d6b8bb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.c0231:nth-child(1) > .rui-IconButton-button",
+      "targets": [
+        ["css=.c0231:nth-child(1) > .rui-IconButton-button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/aside/article/div/span/button", "xpath:idRelative"],
+        ["xpath=//span/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ca34cfc-624a-4fe6-bb22-13681ad65ae1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.c0231:nth-child(6) > .rui-IconButton-button",
+      "targets": [
+        ["css=.c0231:nth-child(6) > .rui-IconButton-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/aside/article/div/span[6]/button", "xpath:idRelative"],
+        ["xpath=//span[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b969d91-15b7-47d9-9682-af7f2313c84e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Регистрация",
+      "targets": [
+        ["linkText=Регистрация", "linkText"],
+        ["css=.c0233 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/footer/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/registration')]", "xpath:href"],
+        ["xpath=//footer/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f9b6934-786f-4683-9bf4-04c1d0de43e0",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47f404b8-742b-44ef-8db3-1e7d506fc12b",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Pr"
+    }, {
+      "id": "df3bce56-a3f6-4191-9856-d74f7e3dd9cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-Button-type-primary",
+      "targets": [
+        ["css=.rui-Button-type-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a844a11f-10bf-4ebd-9033-418fba39bc90",
+    "name": "5.6",
+    "commands": [{
+      "id": "12b13399-7dd1-47cc-b997-9e3ffda5e782",
+      "comment": "",
+      "command": "open",
+      "target": "/login-20/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "913dc2e1-2ce6-4177-af60-3cbf8bf67008",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "619x772",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de1f2715-a774-4227-9ac9-bb466c3c3e8b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Регистрация",
+      "targets": [
+        ["linkText=Регистрация", "linkText"],
+        ["css=.c0233 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/footer/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/registration')]", "xpath:href"],
+        ["xpath=//footer/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4cfa31e-d378-4cd9-bf13-a54349952a9b",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6b8f115-5fc1-40a7-81b8-8ac05a0fed86",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "=pro!verka*"
+    }, {
+      "id": "ba2c4e1c-f22e-4651-a433-5faeec1f4318",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-Button-type-primary",
+      "targets": [
+        ["css=.rui-Button-type-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e53927d8-ad52-4a4c-8afd-86beb31e7771",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,422.3999938964844)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "04e43a7a-0813-4845-816f-41971436387a",
+    "name": "5.7",
+    "commands": [{
+      "id": "36cc9ac6-dee7-44f6-abfd-b2f9c76d6863",
+      "comment": "",
+      "command": "open",
+      "target": "/login-20/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8e3da31-af00-43a4-aa0f-39a439c59ebc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "619x772",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bacdb19-3da3-40b8-9e10-055131482c52",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Регистрация",
+      "targets": [
+        ["linkText=Регистрация", "linkText"],
+        ["css=.c0233 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/footer/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/registration')]", "xpath:href"],
+        ["xpath=//footer/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9fddfa7-fc00-4654-8f4e-c7a0dfc7052b",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba225f68-82de-424b-8563-47f25ba09e8a",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Proverka"
+    }, {
+      "id": "db6c40d5-a8d2-4afb-82d5-de832bb9f362",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-Button-type-primary",
+      "targets": [
+        ["css=.rui-Button-type-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "065abb13-01da-473f-a170-25b88c1241d7",
+    "name": "5.8",
+    "commands": [{
+      "id": "e8a947b7-241f-4af3-8b39-b99557f6176b",
+      "comment": "",
+      "command": "open",
+      "target": "/login-20/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "340c4e72-d4d8-4f29-9a43-624af41a95e0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "619x772",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "473de055-d9b9-41dc-b661-438ebb7b8d03",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Регистрация",
+      "targets": [
+        ["linkText=Регистрация", "linkText"],
+        ["css=.c0233 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/footer/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/registration')]", "xpath:href"],
+        ["xpath=//footer/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "974cdb7e-9a0a-4347-8945-66b291375972",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a34d00ed-8a23-4a66-8d08-279290e38c30",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Proverka12345"
+    }, {
+      "id": "1ceb0d19-4b68-47c2-ac77-24ac915e80ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-Button-type-primary",
+      "targets": [
+        ["css=.rui-Button-type-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4fc164c6-b1c1-48f2-9f7a-3a94d006e628",
+    "name": "5.9",
+    "commands": [{
+      "id": "62998b57-42d5-453b-b8d1-8be41eaf72cc",
+      "comment": "",
+      "command": "open",
+      "target": "/login-20/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc5b7cfb-78bc-4e88-b458-d0a577aed1a3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "619x772",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e82da9c6-96c2-4c3f-9835-9f5865c953e4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.rui-Button-button",
+      "targets": [
+        ["css=.rui-Button-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e57305d-0b5b-4b50-bfbb-0e175e6bbbf2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.c0231:nth-child(2) > .rui-IconButton-button",
+      "targets": [
+        ["css=.c0231:nth-child(2) > .rui-IconButton-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/aside/article/div/span[2]/button", "xpath:idRelative"],
+        ["xpath=//span[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1ad0f71-2d83-42fc-b2f9-69b1aa689e13",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Регистрация",
+      "targets": [
+        ["linkText=Регистрация", "linkText"],
+        ["css=.c0233 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/footer/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/registration')]", "xpath:href"],
+        ["xpath=//footer/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d4d00cb-eba4-497f-8e3b-6307562bc1dd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.src-components-OauthButtons-styles--button--As0Yx:nth-child(3) > .rui-IconButton-button",
+      "targets": [
+        ["css=.src-components-OauthButtons-styles--button--As0Yx:nth-child(3) > .rui-IconButton-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/header/div/article/span[3]/button", "xpath:idRelative"],
+        ["xpath=//span[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "abcfbebf-8e0a-4fdb-b32e-52f51536ec9e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.src-components-OauthButtons-styles--button--As0Yx:nth-child(3) > .rui-IconButton-button",
+      "targets": [
+        ["css=.src-components-OauthButtons-styles--button--As0Yx:nth-child(3) > .rui-IconButton-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/header/div/article/span[3]/button", "xpath:idRelative"],
+        ["xpath=//span[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0c06a23-9c89-4588-ae7d-7198b9b611e5",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b801d4dd-1853-4c8d-9c7b-1acc7d6c7ef3",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Proverka-sverka"
+    }, {
+      "id": "79beb788-51e9-41a4-b208-100634867613",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-Button-type-primary",
+      "targets": [
+        ["css=.rui-Button-type-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9c2f48ed-3654-4302-9893-af180e90de61",
+    "name": "5.10",
+    "commands": [{
+      "id": "e56973db-e294-4a3b-87cf-c1c62d9e6d4a",
+      "comment": "",
+      "command": "open",
+      "target": "/login-20/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4c6b9e2-a2c0-4bba-bade-7267e219535a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "619x772",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dab090c4-c2d6-402c-b552-44c1fe0eba9c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.c0231:nth-child(2) > .rui-IconButton-button",
+      "targets": [
+        ["css=.c0231:nth-child(2) > .rui-IconButton-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/aside/article/div/span[2]/button", "xpath:idRelative"],
+        ["xpath=//span[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c148abe-0e2b-44a7-b114-7225e45fc84d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.c0231:nth-child(7) > .rui-IconButton-button",
+      "targets": [
+        ["css=.c0231:nth-child(7) > .rui-IconButton-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/aside/article/div/span[7]/button", "xpath:idRelative"],
+        ["xpath=//span[7]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4c23d57-76c1-4935-b97d-3930b0e922f7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Регистрация",
+      "targets": [
+        ["linkText=Регистрация", "linkText"],
+        ["css=.c0233 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/footer/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/registration')]", "xpath:href"],
+        ["xpath=//footer/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ec2d5aa-9f62-4078-87ce-662dd1af3c6b",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1432eea-c77c-4805-a24f-bfbff1f27d5c",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "avtor_test"
+    }, {
+      "id": "feff2cd0-c60b-4e4a-a583-9767d288bb19",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-Input-endPosition > .rui-Input-filled",
+      "targets": [
+        ["css=.rui-Input-endPosition > .rui-Input-filled", "css:finder"],
+        ["xpath=(//input[@name='login'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[3]/div/div/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc7867b9-da1c-450d-8049-49bbf8ea35c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-MenuItem-isSelected",
+      "targets": [
+        ["css=.rui-MenuItem-isSelected", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[3]/div/div/div/div[2]/div/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26dca8e5-a3be-4505-9e94-b8f74cc8b256",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-Button-type-primary",
+      "targets": [
+        ["css=.rui-Button-type-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "909aff09-a76d-4719-8175-f0d97ca3ae82",
+    "name": "5.11",
+    "commands": [{
+      "id": "47652733-3579-4e2b-a652-1e8b9ae6f1b8",
+      "comment": "",
+      "command": "open",
+      "target": "/login-20/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "198cf530-689d-4033-99cc-420cc36c2fd4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "619x772",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4fecc157-0616-4659-9c88-0721bc12d414",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.rui-Button-button",
+      "targets": [
+        ["css=.rui-Button-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc9efddf-c6d7-4f23-b51d-8b82e03c18b2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Регистрация",
+      "targets": [
+        ["linkText=Регистрация", "linkText"],
+        ["css=.c0233 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/footer/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/registration')]", "xpath:href"],
+        ["xpath=//footer/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8c7e118-e3e3-44c8-8b19-7fc3faa80272",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.src-components-OauthButtons-styles--button--As0Yx:nth-child(3) > .rui-IconButton-button",
+      "targets": [
+        ["css=.src-components-OauthButtons-styles--button--As0Yx:nth-child(3) > .rui-IconButton-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/header/div/article/span[3]/button", "xpath:idRelative"],
+        ["xpath=//span[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f3ade7d-3bcb-4b5c-a473-b7eb8c77b321",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86e1cb73-3816-4ea3-bd97-599a91acc574",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "PrOverKa"
+    }, {
+      "id": "e4d6e3fb-a0b7-4d6f-834f-e402141be13b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-Button-type-primary",
+      "targets": [
+        ["css=.rui-Button-type-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c00b1910-e642-4305-a6b7-be3bbbb30386",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["99cafbbe-f0c5-4322-807f-830ff194960c"]
+  }],
+  "urls": ["https://id.rambler.ru/"],
+  "plugins": []
+}

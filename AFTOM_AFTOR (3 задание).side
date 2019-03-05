@@ -1,0 +1,181 @@
+{
+  "id": "37a8a24c-645d-4b86-9d63-b3e737b3fb51",
+  "version": "2.0",
+  "name": "AFTOM_AFTOR",
+  "url": "https://mail.rambler.ru",
+  "tests": [{
+    "id": "daa0485d-2313-4102-91b4-925fd0b7ed35",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "961f83dd-1f1d-4872-8f1f-4e03f66e34de",
+    "name": "aftom1",
+    "commands": [{
+      "id": "c8b544ea-3701-493e-b2c0-3c14591d380a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fb6d6ea-415e-4a03-9050-f3ab51c74fc0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "619x777",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da084f86-0a00-44d6-a573-c55bb6fcf56b",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "32d6de7d-9750-46b0-be81-5a48e3a6b75f",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/section/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "my_test1@rambler.ru"
+    }, {
+      "id": "e82d88eb-6322-4c66-a6d5-7f31408f5c0a",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/section[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Test123456"
+    }, {
+      "id": "b05de323-2c86-42fa-a71c-aa0c22212ccc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Забыли пароль?",
+      "targets": [
+        ["linkText=Забыли пароль?", "linkText"],
+        ["css=a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Забыли пароль?')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/recovery?back=https%3A%2F%2Fmail.rambler.ru%2F&rname=mail&email=my_test1%40rambler.ru')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Забыли пароль?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d980c0f-96fd-4303-a800-f01ca8823169",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "7022f5b2-195e-4e46-bb8b-d4f4cf2ace6b",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=3",
+      "targets": [
+        ["index=3"]
+      ],
+      "value": ""
+    }, {
+      "id": "70e37ea1-91aa-40ae-9758-2e3714f7223d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recaptcha-checkbox-checkmark",
+      "targets": [
+        ["css=.recaptcha-checkbox-checkmark", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div[5]", "xpath:idRelative"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0edd6ff6-30cb-42c3-b171-232bf96fd6f9",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "c241dfd8-3507-4a44-9bc4-a442b1cd1918",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.rui-Button-button",
+      "targets": [
+        ["css=.rui-Button-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/footer/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a1e843b-a539-46b4-8639-133db9dd84f5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.rui-Button-button",
+      "targets": [
+        ["css=.rui-Button-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/footer/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "daccea69-495c-49fc-b0c4-cb20297cfb06",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=4",
+      "targets": [
+        ["index=4"]
+      ],
+      "value": ""
+    }, {
+      "id": "676dda7d-3ea7-4271-8986-16a7f613d83f",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) > .rc-imageselect-tile:nth-child(2) .rc-image-tile-33",
+      "targets": [
+        ["css=tr:nth-child(3) > .rc-imageselect-tile:nth-child(2) .rc-image-tile-33", "css:finder"],
+        ["xpath=(//img[contains(@src,'https://www.google.com/recaptcha/api2/payload?p=06AOLTBLRrjNsDfCWn-85Z3D0omn2agjFdyVDSgb-F0w4d7NCQPLdEItU2rp55aFmIMQCnbG4Yj_ilSfDT9NPPb5KjfsMalIeNMVNBpMeAL0JOLRbSHKTkbDO0gwAgJkipTuxSNvG0GkpkZgOInS3Ee_MTq3KLrZJg3oaSrldyTd9bTpa5MY77bO0&k=6LeHeSkUAAAAANUvgxwQ6HOLXCT6w6jTtuJhpLU7')])[8]", "xpath:img"],
+        ["xpath=//div[@id='rc-imageselect-target']/table/tbody/tr[3]/td[2]/div/div/img", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "719aee80-3890-46c4-8a46-c7ef3ee0fc39",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "498da318-612c-4ac6-b5d3-db76e69cda17",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["daa0485d-2313-4102-91b4-925fd0b7ed35"]
+  }],
+  "urls": ["https://mail.rambler.ru/"],
+  "plugins": []
+}

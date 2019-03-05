@@ -1,0 +1,757 @@
+{
+  "id": "442f0026-4004-4562-9801-ed7d11a3a63a",
+  "version": "2.0",
+  "name": "PAROLI",
+  "url": "https://id.rambler.ru/",
+  "tests": [{
+    "id": "d5bc1cb7-54c1-487e-af24-a452d7993468",
+    "name": "6.1",
+    "commands": [{
+      "id": "5cde1401-88d3-4e35-9c30-a5d30d520a3c",
+      "comment": "",
+      "command": "open",
+      "target": "/login-20/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71071c61-3666-41ff-bc60-2a1c6c553d50",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "619x771",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a954e676-92e2-4456-bf75-542fe2d9885b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.rui-Button-button",
+      "targets": [
+        ["css=.rui-Button-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d62caac-a4de-4096-8640-9392b50beff5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.c0231:nth-child(3) > .rui-IconButton-button",
+      "targets": [
+        ["css=.c0231:nth-child(3) > .rui-IconButton-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/aside/article/div/span[3]/button", "xpath:idRelative"],
+        ["xpath=//span[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b934c3f7-fbb0-4289-ab37-b2e567a67b38",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Регистрация",
+      "targets": [
+        ["linkText=Регистрация", "linkText"],
+        ["css=.c0233 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/footer/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/registration')]", "xpath:href"],
+        ["xpath=//footer/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29e37c10-326a-4906-b629-b6ef4d278955",
+      "comment": "",
+      "command": "click",
+      "target": "id=newPassword",
+      "targets": [
+        ["id=newPassword", "id"],
+        ["name=newPassword", "name"],
+        ["css=#newPassword", "css:finder"],
+        ["xpath=//input[@id='newPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b4cd74a-0076-431c-b846-c23865c0e3a3",
+      "comment": "",
+      "command": "type",
+      "target": "id=newPassword",
+      "targets": [
+        ["id=newPassword", "id"],
+        ["name=newPassword", "name"],
+        ["css=#newPassword", "css:finder"],
+        ["xpath=//input[@id='newPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "проверяемпароль"
+    }, {
+      "id": "b33ba2f1-a49a-4ea6-a67d-12aea53bbcb4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-Button-type-primary",
+      "targets": [
+        ["css=.rui-Button-type-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cf980ac2-e65a-4794-9cd7-f649b2864965",
+    "name": "6.2",
+    "commands": [{
+      "id": "0b1ed9e4-62c7-43a3-a143-9eaec386fc2f",
+      "comment": "",
+      "command": "open",
+      "target": "/login-20/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4dfe810-2c32-46cd-a49b-67335bcf228b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "619x771",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "751ed05f-6387-4bdd-b5d3-f90fb3a3d4d8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.rui-Button-button",
+      "targets": [
+        ["css=.rui-Button-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ae1f552-665e-48a8-b8d6-12d8e8151d4e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.c0231:nth-child(2) > .rui-IconButton-button",
+      "targets": [
+        ["css=.c0231:nth-child(2) > .rui-IconButton-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/aside/article/div/span[2]/button", "xpath:idRelative"],
+        ["xpath=//span[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a1e8780-8c91-4cfd-b0c7-0720c5a31d0a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Регистрация",
+      "targets": [
+        ["linkText=Регистрация", "linkText"],
+        ["css=.c0233 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/footer/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/registration')]", "xpath:href"],
+        ["xpath=//footer/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cb6ffb8-088c-4b9c-b79f-614ec273288b",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=newPassword",
+      "targets": [
+        ["id=newPassword", "id"],
+        ["name=newPassword", "name"],
+        ["css=#newPassword", "css:finder"],
+        ["xpath=//input[@id='newPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "29.199996948242188,15.45001220703125"
+    }, {
+      "id": "e549a291-381c-46c7-a5a8-17c32ee96d84",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=newPassword",
+      "targets": [
+        ["id=newPassword", "id"],
+        ["name=newPassword", "name"],
+        ["css=#newPassword", "css:finder"],
+        ["xpath=//input[@id='newPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "29.199996948242188,15.45001220703125"
+    }, {
+      "id": "748ee8da-3dba-405f-8af2-0d3c9eb26aba",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=newPassword",
+      "targets": [
+        ["id=newPassword", "id"],
+        ["name=newPassword", "name"],
+        ["css=#newPassword", "css:finder"],
+        ["xpath=//input[@id='newPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "29.199996948242188,15.45001220703125"
+    }, {
+      "id": "f0761200-3e17-4917-99d4-e62186c440c0",
+      "comment": "",
+      "command": "click",
+      "target": "id=newPassword",
+      "targets": [
+        ["id=newPassword", "id"],
+        ["name=newPassword", "name"],
+        ["css=#newPassword", "css:finder"],
+        ["xpath=//input[@id='newPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60189075-7c66-418f-b8ed-b3f0b37148e4",
+      "comment": "",
+      "command": "type",
+      "target": "id=newPassword",
+      "targets": [
+        ["id=newPassword", "id"],
+        ["name=newPassword", "name"],
+        ["css=#newPassword", "css:finder"],
+        ["xpath=//input[@id='newPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "123456789"
+    }, {
+      "id": "d595e16c-a9f8-467f-9905-709a735c2a27",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-Button-type-primary",
+      "targets": [
+        ["css=.rui-Button-type-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5898191f-062f-4321-b2c0-067bf5cb6103",
+    "name": "6.3",
+    "commands": [{
+      "id": "57eae632-d417-4edb-b5c8-a57999aadb7c",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "173db2b9-f43d-48ba-a633-d105e30bf6a9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "619x771",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f584601-2435-4e0d-9a3d-bdb3b7d0c0a8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Регистрация",
+      "targets": [
+        ["linkText=Регистрация", "linkText"],
+        ["css=.c0233 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/footer/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/registration')]", "xpath:href"],
+        ["xpath=//footer/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c29161f-77e2-48de-9ae0-5f68c7e90ac6",
+      "comment": "",
+      "command": "click",
+      "target": "id=newPassword",
+      "targets": [
+        ["id=newPassword", "id"],
+        ["name=newPassword", "name"],
+        ["css=#newPassword", "css:finder"],
+        ["xpath=//input[@id='newPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d268f7e6-390f-43aa-ad64-a98b7cadbad1",
+      "comment": "",
+      "command": "type",
+      "target": "id=newPassword",
+      "targets": [
+        ["id=newPassword", "id"],
+        ["name=newPassword", "name"],
+        ["css=#newPassword", "css:finder"],
+        ["xpath=//input[@id='newPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "proverka12345"
+    }, {
+      "id": "c0b53ed6-34d2-449b-ad5d-d64620b0fc5d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-Button-type-primary",
+      "targets": [
+        ["css=.rui-Button-type-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "122c8bd9-b8d0-488c-984a-e350f18157ef",
+    "name": "6.4",
+    "commands": [{
+      "id": "67003e21-f911-4fa9-9c18-065498487ced",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ac2980e-ea57-40a6-8231-f9b3d5ba73b6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "619x771",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c691736-3970-4199-800d-f551f8789550",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Регистрация",
+      "targets": [
+        ["linkText=Регистрация", "linkText"],
+        ["css=.c0233 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/footer/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/registration')]", "xpath:href"],
+        ["xpath=//footer/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "935157b3-a9a8-4e1a-ad01-ad2dbf2f9d02",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.src-components-OauthButtons-styles--button--As0Yx:nth-child(5) > .rui-IconButton-button",
+      "targets": [
+        ["css=.src-components-OauthButtons-styles--button--As0Yx:nth-child(5) > .rui-IconButton-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/header/div/article/span[5]/button", "xpath:idRelative"],
+        ["xpath=//span[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39002cc0-d384-43b7-a883-f85e3c546a11",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.src-components-OauthButtons-styles--button--As0Yx:nth-child(5) > .rui-IconButton-button",
+      "targets": [
+        ["css=.src-components-OauthButtons-styles--button--As0Yx:nth-child(5) > .rui-IconButton-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/header/div/article/span[5]/button", "xpath:idRelative"],
+        ["xpath=//span[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82e785ea-6539-4b65-99db-dd502d5612a1",
+      "comment": "",
+      "command": "click",
+      "target": "id=newPassword",
+      "targets": [
+        ["id=newPassword", "id"],
+        ["name=newPassword", "name"],
+        ["css=#newPassword", "css:finder"],
+        ["xpath=//input[@id='newPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00fb98a9-1087-483a-a891-dba61b78afa1",
+      "comment": "",
+      "command": "type",
+      "target": "id=newPassword",
+      "targets": [
+        ["id=newPassword", "id"],
+        ["name=newPassword", "name"],
+        ["css=#newPassword", "css:finder"],
+        ["xpath=//input[@id='newPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "rioipoppop1212313435435435465465674745645643535478687435687648376587164857678154368765487654786875476876458745687654786874563784hjdsgfjnmghdjsfghjdsfgyugftdcnbcgvhghjfcfg"
+    }, {
+      "id": "959dada5-9b66-4a6a-abf1-3a68912a82d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-Button-type-primary",
+      "targets": [
+        ["css=.rui-Button-type-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "316aea9a-d00c-42c4-88f4-9db9fcac6090",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-FormGroup-medium:nth-child(4) .rui-Input-eyeWrapper",
+      "targets": [
+        ["css=.rui-FormGroup-medium:nth-child(4) .rui-Input-eyeWrapper", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[4]/div/div/div/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "dd64e0f6-450d-42bc-bada-a104fe016ee8",
+    "name": "6.5",
+    "commands": [{
+      "id": "1f994952-cf2d-42e1-8cde-4be0ee3aa2d2",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c34f4b10-d3ec-44c8-ba93-1dce555366a9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "619x771",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48255341-7588-4eac-9a02-0ddd27a9bf88",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Регистрация",
+      "targets": [
+        ["linkText=Регистрация", "linkText"],
+        ["css=.c0233 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/footer/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/registration')]", "xpath:href"],
+        ["xpath=//footer/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d7a6cbc-4b0f-44bd-9243-669e89244f2f",
+      "comment": "",
+      "command": "click",
+      "target": "id=newPassword",
+      "targets": [
+        ["id=newPassword", "id"],
+        ["name=newPassword", "name"],
+        ["css=#newPassword", "css:finder"],
+        ["xpath=//input[@id='newPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9095e934-4468-437b-b06d-49385fed92a2",
+      "comment": "",
+      "command": "type",
+      "target": "id=newPassword",
+      "targets": [
+        ["id=newPassword", "id"],
+        ["name=newPassword", "name"],
+        ["css=#newPassword", "css:finder"],
+        ["xpath=//input[@id='newPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Prover"
+    }, {
+      "id": "c36fd339-b7f6-466a-8dc4-d93719a0a4f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-Button-type-primary",
+      "targets": [
+        ["css=.rui-Button-type-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "57ca22c2-454f-4475-b8dc-894a6c82bb73",
+    "name": "6.6",
+    "commands": [{
+      "id": "c6641d55-a6bb-4c4e-8bba-1b24302580f5",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "483bf6a6-187e-4064-a1de-d9412818f2c2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "619x771",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b69aee85-5585-40fb-9aba-83b0d83e05c5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Регистрация",
+      "targets": [
+        ["linkText=Регистрация", "linkText"],
+        ["css=.c0233 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/footer/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/registration')]", "xpath:href"],
+        ["xpath=//footer/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "153bcae7-210f-4a30-a3f2-6f16c6a39ee8",
+      "comment": "",
+      "command": "click",
+      "target": "id=newPassword",
+      "targets": [
+        ["id=newPassword", "id"],
+        ["name=newPassword", "name"],
+        ["css=#newPassword", "css:finder"],
+        ["xpath=//input[@id='newPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c29c00f3-bffc-4d02-9fc8-02f588a176ee",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,422.3999938964844)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "406e3d96-6085-45dd-b915-3ebfd04514c9",
+      "comment": "",
+      "command": "type",
+      "target": "id=newPassword",
+      "targets": [
+        ["id=newPassword", "id"],
+        ["name=newPassword", "name"],
+        ["css=#newPassword", "css:finder"],
+        ["xpath=//input[@id='newPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Prov#erka="
+    }, {
+      "id": "f2956aae-4092-499f-8423-d258f5c30d52",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-Button-type-primary",
+      "targets": [
+        ["css=.rui-Button-type-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "32b7387d-3c1f-4e6d-8755-ac08702ca751",
+    "name": "6.7",
+    "commands": [{
+      "id": "43d10e85-5b34-46f8-8b67-8b2859af1e37",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f64063fa-5a18-43a6-a079-7c8b88a99c3b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "619x771",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c8de236-ce86-4257-9c27-e16a4cbbb00d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Регистрация",
+      "targets": [
+        ["linkText=Регистрация", "linkText"],
+        ["css=.c0233 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/footer/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/registration')]", "xpath:href"],
+        ["xpath=//footer/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "321bd833-fe18-4859-8233-6312c4a8634a",
+      "comment": "",
+      "command": "click",
+      "target": "id=newPassword",
+      "targets": [
+        ["id=newPassword", "id"],
+        ["name=newPassword", "name"],
+        ["css=#newPassword", "css:finder"],
+        ["xpath=//input[@id='newPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6426d3b2-597d-41fe-8798-ccb39770c355",
+      "comment": "",
+      "command": "type",
+      "target": "id=newPassword",
+      "targets": [
+        ["id=newPassword", "id"],
+        ["name=newPassword", "name"],
+        ["css=#newPassword", "css:finder"],
+        ["xpath=//input[@id='newPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Prover ka "
+    }, {
+      "id": "9e92d896-f6fe-419e-8ce9-ffae3790a1c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-Button-type-primary",
+      "targets": [
+        ["css=.rui-Button-type-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6c506dd1-358b-42d6-86f8-a5c89f2c5b59",
+    "name": "6.8",
+    "commands": [{
+      "id": "5d4a74da-0c7b-4ddd-bef9-f3d9ab8efcca",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a728228e-312c-404b-b591-9ae8e98a5972",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "619x771",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "494fa6fd-ab16-4132-a776-a7537fa6a41e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.rui-Button-button",
+      "targets": [
+        ["css=.rui-Button-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83ea0534-d42a-45a4-8826-9f903a30a44c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.c0231:nth-child(9) > .rui-IconButton-button",
+      "targets": [
+        ["css=.c0231:nth-child(9) > .rui-IconButton-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/aside/article/div/span[9]/button", "xpath:idRelative"],
+        ["xpath=//span[9]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e983939-340f-480e-bbbf-59a80013c328",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Регистрация",
+      "targets": [
+        ["linkText=Регистрация", "linkText"],
+        ["css=.c0233 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/footer/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/registration')]", "xpath:href"],
+        ["xpath=//footer/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbfb3d63-e5d0-4148-9fba-bc0194291113",
+      "comment": "",
+      "command": "click",
+      "target": "id=newPassword",
+      "targets": [
+        ["id=newPassword", "id"],
+        ["name=newPassword", "name"],
+        ["css=#newPassword", "css:finder"],
+        ["xpath=//input[@id='newPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cb797a9-552b-48e8-8cab-5efc837aae4c",
+      "comment": "",
+      "command": "type",
+      "target": "id=newPassword",
+      "targets": [
+        ["id=newPassword", "id"],
+        ["name=newPassword", "name"],
+        ["css=#newPassword", "css:finder"],
+        ["xpath=//input[@id='newPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/section[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Proverka111"
+    }, {
+      "id": "55e0fd3c-b716-4151-87af-5aaefdb35306",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-Button-type-primary",
+      "targets": [
+        ["css=.rui-Button-type-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5f896261-a1a6-4571-862b-7050f6cdeec1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://id.rambler.ru/"],
+  "plugins": []
+}
